@@ -9,19 +9,146 @@
 *
 */
 
+html{
+background:black;
+}
+
+a{
+visibility:none;
+}
+
 @font-face {
     font-family: "Segoe UI";
     font-weight: 700;
     src: local("Segoe UI Bold");
 }
 
+.button_powrot{
+background:url(../img/button_powrot.png) no-repeat;
+width:118px;
+height:118px;
+margin-left:70%;
+margin-top:5%;
+float:left;
+display;block;
+z-index:100;
+}
 
+
+
+.button_powrot:active,
+.button_powrot:hover{
+background:url(../img/button_powrot_focused.png) no-repeat;
+}
 
 .kupon_a{
 background:url(../img/1.jpg);
 width:480px;
 height:800px;
 }
+
+.kupon_b{
+background:url(../img/2.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_c{
+background:url(../img/3.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_d{
+background:url(../img/4.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_e{
+background:url(../img/5.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_f{
+background:url(../img/6.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_g{
+background:url(../img/7.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_h{
+background:url(../img/8.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_i{
+background:url(../img/9.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_j{
+background:url(../img/10.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_k{
+background:url(../img/11.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_l{
+background:url(../img/12.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_m{
+background:url(../img/13.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_n{
+background:url(../img/14.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_o{
+background:url(../img/15.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_p{
+background:url(../img/16.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_q{
+background:url(../img/17.jpg);
+width:480px;
+height:800px;
+}
+
+.kupon_r{
+background:url(../img/18.jpg);
+width:480px;
+height:800px;
+}
+
 
 /* Some unsets */
 .ui-mobile,
@@ -177,8 +304,7 @@ div.ui-mobile-viewport {
 .ui-body {
 	position: relative;
 	padding: .4em 1em;
-	overflow: hidden;ui-btn
-
+	overflow: hidden;
 	display: block;
 	clear: both;
 }
@@ -201,7 +327,7 @@ div.ui-mobile-viewport {
     left: 0px; 
     z-index: 10000; 
     width: 100%; 
-    height: 2.5em; 
+    height: 5em; 
     position: fixed; 
     margin-bottom: 0px;
 }
@@ -249,7 +375,7 @@ div.ui-mobile-viewport {
 }
 /* Buttons and icons */
 .ui-btn {
-	font-size: 16px;
+	font-size: 17px;
 	margin: 0 0;
 	padding: .7em 1em;
 	display: block;
@@ -271,6 +397,12 @@ div.ui-mobile-viewport {
 	background: linear-gradient(#c10c0c, #d81f1f); /* Standard syntax */
 }
 
+h1{
+font-size:40px;
+margin: 0 0;
+}
+
+
 .ui-btn-b {
 	font-size: 16px;
 	margin: 0 0;
@@ -291,7 +423,7 @@ div.ui-mobile-viewport {
 }
 
 #button_b{
-	font-size: 16px;
+	font-size: 17px;
 	margin: 0 0;
 	padding: .7em 1em;
 	display: block;
