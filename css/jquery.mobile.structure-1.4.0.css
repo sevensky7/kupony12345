@@ -378,6 +378,7 @@ div.ui-mobile-viewport {
 }
 /* Buttons and icons */
 .ui-btn {
+
 	font-size: 17px;
 	margin: 0 0;
 	padding: .7em 1em;
@@ -448,10 +449,10 @@ margin: 0 0;
 	background: linear-gradient(#740a0a, #9d0f0f); /* Standard syntax */
 }
 
-a:link {text-decoration:none;}
-a:visited {text-decoration:none;}
-a:hover {text-decoration:none;}
-a:active {text-decoration:none;}
+a:link {visibility:none; text-decoration:none;}
+a:visited {visibility:none; text-decoration:none;}
+a:hover {visibility:none; text-decoration:none;}
+a:active {visibility:none; text-decoration:none;}
 
 .ui-btn-icon-notext {
 	padding: 0;
