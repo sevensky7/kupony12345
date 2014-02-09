@@ -20,7 +20,17 @@ src: url(../fonts/OpenSans-Bold-webfont.eot?#iefix) format('embedded-opentype'),
 
 
 a{
-display:hidden;
+display:none;
+}
+
+html{
+width:480px;
+}
+
+.kupon_a{
+background: url(../img/1.jpg);
+width:480px;
+height:800px;
 }
 
 /* Some unsets */
@@ -28,9 +38,11 @@ display:hidden;
 .ui-mobile body {
 	font-family: openSans;
 	height: 99.9%;
+	background-color:black;
 }
 .ui-mobile fieldset,
 .ui-page {
+
 	padding: 0;
 	margin: 0;
 }
@@ -67,7 +79,7 @@ div.ui-mobile-viewport {
 .ui-page {
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 480px;
 	min-height: 100%;
 	position: absolute;
 	display: none;
@@ -193,9 +205,10 @@ div.ui-mobile-viewport {
 }
 .ui-header,
 .ui-footer {
-	border-width: 1px 0;
+	border-width: 2px 0;
 	border-style: solid;
 	position: relative;
+	border-color:#6c0202;
 }
 .ui-header:empty,
 .ui-footer:empty {
@@ -247,6 +260,29 @@ div.ui-mobile-viewport {
 	display: block;
 	position: relative;
 	text-align: left;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color:white;
+	background-color: #c10c0c;
+	background: -webkit-linear-gradient(#c10c0c, #d81f1f); /* For Safari */
+	background: -o-linear-gradient(#c10c0c, #d81f1f); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#c10c0c, #d81f1f); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#c10c0c, #d81f1f); /* Standard syntax */
+}
+
+.ui-btn_b {
+	font-size: 16px;
+	margin: 0 0;
+	padding: .7em 1em;
+	display: block;
+	position: relative;
+	text-align: center;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
