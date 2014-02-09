@@ -17,6 +17,9 @@ a{
 visibility:none;
 }
 
+
+
+
 @font-face {
     font-family: "Segoe UI";
     font-weight: 700;
@@ -405,7 +408,7 @@ margin: 0 0;
 
 .ui-btn-b {
 	font-size: 16px;
-	margin: 0 0;
+	margin: 0 auto;
 	padding: .7em 1em;
 	display: block;
 	position: relative;
