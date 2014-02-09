@@ -17,8 +17,19 @@ a{
 visibility:none;
 }
 
+#popupBasic{
+background-color:white;
+color:black;
+width:400px;
+height:70px;
+opacity:0.93;
+filter:alpha(opacity=90); 
+}
 
+.aktualizacja{
+text-align:center;
 
+}
 
 @font-face {
     font-family: "Segoe UI";
