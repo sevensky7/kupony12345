@@ -9,26 +9,16 @@
 *
 */
 
-@font-face
-{
-font-family: openSans;
-src: url(../fonts/OpenSans-Bold-webfont.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
-	     url(../fonts/OpenSans-Bold-webfont.woff) format('woff'), /* Modern Browsers */
-	     url(../fonts/OpenSans-Bold-webfont.ttf)  format('truetype'), /* Safari, Android, iOS */
-	     url(../fonts/OpenSans-Bold-webfont.svg#svgFontName) format('svg'); /* Legacy iOS */
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: 700;
+    src: local("Segoe UI Bold");
 }
 
 
-a{
-display:none;
-}
-
-html{
-width:480px;
-}
 
 .kupon_a{
-background: url(../img/1.jpg);
+background:url(../img/1.jpg);
 width:480px;
 height:800px;
 }
@@ -36,15 +26,14 @@ height:800px;
 /* Some unsets */
 .ui-mobile,
 .ui-mobile body {
-	font-family: openSans;
+	font-family: "Segoe UI";
 	height: 99.9%;
-	background-color:black;
 }
 .ui-mobile fieldset,
 .ui-page {
-
 	padding: 0;
 	margin: 0;
+	background-color:black;
 }
 .ui-mobile a img,
 .ui-mobile fieldset {
@@ -79,7 +68,7 @@ div.ui-mobile-viewport {
 .ui-page {
 	top: 0;
 	left: 0;
-	width: 480px;
+	width: 100%;
 	min-height: 100%;
 	position: absolute;
 	display: none;
@@ -188,7 +177,8 @@ div.ui-mobile-viewport {
 .ui-body {
 	position: relative;
 	padding: .4em 1em;
-	overflow: hidden;
+	overflow: hidden;ui-btn
+
 	display: block;
 	clear: both;
 }
@@ -205,10 +195,10 @@ div.ui-mobile-viewport {
 }
 .ui-header,
 .ui-footer {
-	border-width: 2px 0;
+	border-width: 1px 0;
 	border-style: solid;
 	position: relative;
-	border-color:#6c0202;
+	background-color:white;
 }
 .ui-header:empty,
 .ui-footer:empty {
@@ -276,13 +266,13 @@ div.ui-mobile-viewport {
 	background: linear-gradient(#c10c0c, #d81f1f); /* Standard syntax */
 }
 
-.ui-btn_b {
+.ui-btn-b {
 	font-size: 16px;
 	margin: 0 0;
 	padding: .7em 1em;
 	display: block;
 	position: relative;
-	text-align: center;
+	text-align: right;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
@@ -291,12 +281,8 @@ div.ui-mobile-viewport {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	color:white;
-	background-color: #c10c0c;
-	background: -webkit-linear-gradient(#c10c0c, #d81f1f); /* For Safari */
-	background: -o-linear-gradient(#c10c0c, #d81f1f); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#c10c0c, #d81f1f); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#c10c0c, #d81f1f); /* Standard syntax */
+	color:red;
+	background:transparent;
 }
 
 #button_b{
