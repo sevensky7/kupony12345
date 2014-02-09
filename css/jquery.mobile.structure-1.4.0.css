@@ -249,6 +249,7 @@ div.ui-mobile-viewport {
 	-ms-user-select: none;
 	user-select: none;
 	color:white;
+	background-color: #c10c0c;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c10c0c', endColorstr='#d81f1f');
 	background: -webkit-linear-gradient(#c10c0c, #d81f1f); /* For Safari */
 	background: -o-linear-gradient(#c10c0c, #d81f1f); /* For Opera 11.1 to 12.0 */
@@ -272,6 +273,7 @@ div.ui-mobile-viewport {
 	-ms-user-select: none;
 	user-select: none;
 	color:white;
+	background-color: #740a0a;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#740a0a', endColorstr='#9d0f0f');
 	background: -webkit-linear-gradient(#740a0a, #9d0f0f); /* For Safari */
 	background: -o-linear-gradient(#740a0a, #9d0f0f); /* For Opera 11.1 to 12.0 */
