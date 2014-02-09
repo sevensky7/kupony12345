@@ -48,7 +48,7 @@ permission on your app, which PhoneGap requires.
 -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="res/202x202.png" />
+    <icon src="res/202x202.png" gap:role="default"/>
     <icon src="res/48x48.png" gap:platform="winphone" />
     <icon src="res/173x173.png" gap:platform="winphone" gap:role="background" />
 
